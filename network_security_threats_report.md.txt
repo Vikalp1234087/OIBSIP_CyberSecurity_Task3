@@ -1,0 +1,108 @@
+Task 3: Research Report on Common Network Security Threats
+Introduction
+
+With the rapid growth of digital communication and internet-based services, network security has become a critical concern for organizations and individuals. Cyber attackers continuously exploit vulnerabilities in networks to disrupt services, steal sensitive information, or gain unauthorized access. This report discusses some of the most common network security threats, explains how they work, their impact, real-world relevance, and the preventive measures that can be taken to reduce risks.
+
+1. Denial of Service (DoS) Attack
+
+A Denial of Service (DoS) attack is a cyberattack designed to make a system, server, or network unavailable to legitimate users by overwhelming it with excessive traffic or requests.
+
+How It Works
+
+In a DoS attack, the attacker sends a large number of requests to a target system within a short period. The system becomes overloaded and cannot respond to genuine user requests. In some cases, multiple compromised systems are used to launch the attack, known as a Distributed Denial of Service (DDoS) attack.
+
+Impact
+
+Website or service downtime
+
+Financial losses due to service disruption
+
+Loss of customer trust and reputation
+
+Increased operational costs
+
+Real-World Example
+
+Several large organizations and online platforms have experienced outages due to massive DDoS attacks, temporarily disabling their services.
+
+Prevention and Mitigation
+
+Use of firewalls and intrusion detection systems
+
+Rate limiting and traffic filtering
+
+Load balancing and traffic monitoring
+
+Using DDoS protection services
+
+2. Man-in-the-Middle (MITM) Attack
+
+A Man-in-the-Middle (MITM) attack occurs when an attacker secretly intercepts and possibly alters the communication between two parties who believe they are directly communicating with each other.
+
+How It Works
+
+The attacker positions themselves between the sender and receiver. They can eavesdrop on the communication, capture sensitive data such as login credentials, or modify the data being transmitted without the knowledge of either party.
+
+Impact
+
+Theft of sensitive information
+
+Compromise of user credentials
+
+Data manipulation
+
+Privacy breaches
+
+Real-World Example
+
+MITM attacks are commonly seen on unsecured public Wi-Fi networks, where attackers intercept data transmitted by users.
+
+Prevention and Mitigation
+
+Use of HTTPS and SSL/TLS encryption
+
+Avoiding unsecured public Wi-Fi networks
+
+Using Virtual Private Networks (VPNs)
+
+Implementing strong authentication mechanisms
+
+3. IP Spoofing
+
+IP spoofing is a technique where an attacker falsifies the source IP address of network packets to hide their identity or impersonate another system.
+
+How It Works
+
+The attacker modifies packet headers to make them appear as if they are coming from a trusted source. This technique is often used to bypass security measures or to assist in other attacks such as DoS attacks.
+
+Impact
+
+Unauthorized access to systems
+
+Bypassing firewall rules
+
+Increased difficulty in tracing attackers
+
+Facilitation of other cyberattacks
+
+Real-World Example
+
+IP spoofing is frequently used in large-scale network attacks to hide the true origin of malicious traffic.
+
+Prevention and Mitigation
+
+Packet filtering at routers and firewalls
+
+Network authentication protocols
+
+Ingress and egress filtering
+
+Monitoring abnormal traffic patterns
+
+Importance of Network Security
+
+Network security is essential to protect data, maintain system availability, and ensure trust in digital services. Understanding common threats allows organizations to implement effective security controls, reduce vulnerabilities, and respond quickly to incidents.
+
+Conclusion
+
+Network security threats such as DoS attacks, MITM attacks, and IP spoofing pose serious risks to modern digital environments. By understanding how these attacks operate and applying proper security measures, organizations and individuals can significantly reduce the likelihood of successful attacks. Continuous monitoring, security awareness, and proactive defense strategies are key to maintaining a secure network infrastructure
